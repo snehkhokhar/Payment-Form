@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="newpaymentform.css">
+    <title>Payment Form</title>
+</head>
+<body>
+<div class="container">
+    <h1>Payment Form</h1><hr>
+    <form action="">
+        <legend>Payment Methods</legend>
+        <input type="radio" name="Gender" id="Gender" > Debit OR Credit card <br> <input type="radio" name="Gender" id="Gender"> Paypal<br>
+        <div class="harsh">
+            <div class="detail">
+                <input type="text" name="name">
+                <span class="input-detail">First Name</span>
+            </div>
+            <div class="detail">
+                <input type="text" name="name">
+                <span class="input-detail">Last Name</span>
+            </div>
+            <div class="detail">
+                <input type="number" name="card_number" id="card_number" placeholder="1111-2222-3333-4444">
+                <span class="input-detail">Card Number</span>
+            </div>
+            <div class="detail">
+                <input type="password" name="CVV" id="CVV" placeholder="CVV">
+                <span class="input-detail">Security Code</span>
+            </div>
+            <div class="detail">
+                <input type="date" name="date" id="date" placeholder="MM/YYYY">
+                <span class="input-detail">Expiration Date</span>
+            </div>
+        </div>
+    <div class="button"><input type="submit" value="Submit Order"></div>
+    </form>
+    </div>
+</body>
+</html>

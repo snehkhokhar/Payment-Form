@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Roboto Mono, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+legend{
+    font-size: 19px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.container{
+    position: absolute;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s linear;
+}
+.container:hover{
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+    transform: scale(1.01);
+}
+h1{
+    font-size: x-large;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container form .harsh{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.harsh .detail .input-detail{
+    font-size:small;
+    color: rgb(142, 141, 141);
+    word-spacing: -2px;
+    font-weight: 600;
+}
+form .harsh .detail{
+    width: calc(100% / 2 - 20px);
+}
+.harsh .detail input{
+    height: 40px;
+    width: 100%;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+    margin-top: 15px;
+}
+input[type="submit"]{
+    font-size: large;
+    border: none;
+    position: relative;
+    background:#a06bb5 ;
+    width: 30%;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s linear;
+}
+.button{
+    text-align: center;
+}
+input[type="submit"]:hover{
+    background-color: #71b7e6;
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
